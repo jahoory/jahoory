@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+    font-family:Ysabeau Office;
+    background-color: #fff;
+    color: rgb(10, 10, 54);
+    
+}
+
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.466),rgba(255, 0, 0, 0.445)) ,  url(../Images/header\ background.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    height: 100px;
+
+}
+
+.main-nav ,.footer-nav ,.social-nav{
+    display: flex;
+    list-style: none;
+}
+.main-nav li ,.footer-nav li,.social-nav li{
+    padding: 0 15px;
+}
+.main-nav li a,.footer-nav li a,.social-nav li a{
+    text-decoration: none;
+    color: rgb(81, 255, 0);
+    text-transform:uppercase;
+}
+.main-nav li a:hover ,.footer-nav li a:hover ,.social-nav li a:hover{
+    text-decoration: underline;
+    color: rgb(221, 187, 187);
+}
+ h1{
+    color: rgb(175, 175, 45);
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    
+ }
+.btn{
+    border: solid 1px blue;
+    margin-right: 15px;
+    padding: 10px 20px;
+    color: orange;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.btn:hover{
+    color: yellow;
+    background-color: red;
+}
+section{
+    padding: 40px 0;
+}
+h2{
+    text-transform: uppercase;
+    color:rgb(61, 10, 90) ;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 1px; 
+    text-align: center;
+}
+hr{
+    width: 100px;
+    margin:  20px auto;
+    border: solid 1.5px
+    rgb(61, 10, 90);
+}
+.voise-cesc{
+    width:70%;
+    margin: 20px 230px;
+}
+.box{
+    text-align: center;
+}
+.box i{
+    font-size: 36px;
+
+}
+.box h3 {
+    margin-bottom: 10px;
+}
+.box p {
+    line-height: 1.5;
+}
+
+
+.types {
+   padding: 0;
+   background-color: rgb(179, 12, 20);
+   overflow: hidden;
+}
+
+.types img {
+    width: 100%;
+    margin-bottom: -5;
+    opacity: 0.6;
+    transition: .1s;
+    transform: scale(1.2);
+}
+.types img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+.vos img {
+    width: 100%;
+    margin-bottom: 10PX;
+}
+.vos h3 {
+   margin-bottom: 10px;
+   text-align: center;
+}
+footer{
+    padding: 40px 0;
+    background-color:rgb(3, 3, 41);
+    color: orange;
+}
